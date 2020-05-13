@@ -238,7 +238,7 @@ class Slider {
 	}
 	
 	initEvents() {
-	document.body.addEventListener('scroll' (e) =>
+	this.containerControls.addEventListener("click", (e) =>
   	this.activeControlItem(e));
 	}
 
